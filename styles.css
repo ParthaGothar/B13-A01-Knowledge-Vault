@@ -159,7 +159,7 @@ nav button{
     max-width: 1360px;
     margin: 0 auto;
     text-align: center;
-    /* background-color: #FFFFFF; */
+    background-color: #FFFFFF;
 
 }
  .cardcontainer .cardabout {
@@ -231,7 +231,70 @@ nav button{
     margin-bottom: 69.5px;
 }
 
+#sol {
+    max-width: 1600px;
+    padding-top: 120px;
+}
 
-  
+#sol .solcontent {
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
 
+.solcontent .sol-img {
+    max-width: 600px;
+    border-radius: 12px;
+}
 
+.solinfo {
+    max-width: 700px;
+    margin-top: 102px;
+}
+
+.sol-text h4 {
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    text-align: left;
+}
+
+.sol-text h2 {
+    max-width: 700px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    text-align: left ;
+    line-height: 58px;
+    padding-right: 50px;
+    margin-bottom: 16px;
+}
+
+.sol-text p {
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    padding-right: 220px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.sol-points {
+    max-width: 700px;
+}
+.sol-points .point {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+.sol-points .point p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    text-align: left;
+}
