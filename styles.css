@@ -311,6 +311,7 @@ nav button{
     padding-top: 80px;
     text-align: center;
     background-color: #F7F6F2;
+    padding-bottom: 80px;
 }
 
 .access-content h3 {
@@ -380,7 +381,6 @@ nav button{
     margin: 0 auto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 20px;
     color: #627382;
-    margin-bottom: 80px;
 }
