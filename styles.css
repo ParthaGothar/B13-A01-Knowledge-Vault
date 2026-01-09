@@ -1,0 +1,151 @@
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto; 
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/* navigation */
+
+nav{
+    display: flex;
+    max-width: 1600;
+    max-height: 92;
+    padding: 16px 120px;
+    justify-content:space-between;
+    align-items: center;
+
+    background-color: #FFFFFF;
+}
+
+nav img{
+    max-width: 139;
+    max-height: 60;
+}
+
+
+nav ul{
+    max-width: 365px;
+    max-height: 24px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 32px;
+    
+}
+
+.link-root a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+
+}
+
+nav button{
+    border-radius: 4px;
+    padding: 12px 16px;
+    background-color: #469165;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.hero-main {
+    max-width: 1600px;
+    max-height: 674px;
+    background-image: url("./assets/hero-bg.png");
+    padding: 70px 120px 134px 120px;
+}
+
+.hero {
+    max-width: 1360px;
+    max-height: 380px;
+    text-align: center;
+}
+
+.first {
+    max-width: 229px;
+    max-height: 36px;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    display: inline;
+    padding: 8px 12px;
+    font-weight: 500;
+    color: #469165;
+    font-size: 16px;
+    text-align: center;
+    gap: 6px;
+}
+
+.second {
+    max-width: 770px;
+    max-height: 168px;
+    margin: 16px 295px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700; 
+    color: #FFFFFF;  
+}
+
+.second span {
+    color: #30B868;
+}
+
+.third {
+    max-width: 1360px;
+    max-height: 60px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px;
+}
+
+.hero-button {
+    max-width: 465px;
+    max-height: 52px;
+    margin: 32px 447.5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+
+}
+
+.hero-button .but1 {
+    max-width: 251px;
+    max-height: 52px;
+    border-radius: 4px;
+    padding: 12px 16px;
+    background-color: #469165;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.but2 {
+    max-width: 198px;
+    max-height: 52px;
+    border: 1px #FFFFFF solid;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: transparent;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    display: inline;
+    text-align: center;
+
+}
