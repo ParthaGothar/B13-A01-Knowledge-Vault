@@ -6,34 +6,32 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-/* navigation */
+
 
 nav{
-    display: flex;
     max-width: 1600;
-    max-height: 92;
-    padding: 16px 120px;
-    justify-content:space-between;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
     align-items: center;
-
+    padding-bottom: 16px;
+    padding-top: 16px;
     background-color: #FFFFFF;
 }
 
 nav img{
     max-width: 139;
-    max-height: 60;
 }
 
 
 nav ul{
     max-width: 365px;
-    max-height: 24px;
     display: flex;
     list-style: none;
     justify-content: space-between;
-    gap: 32px;
-    
+    gap: 32px;  
 }
 
 .link-root a{
@@ -41,7 +39,9 @@ nav ul{
     font-size: 16px;
     font-weight: 500;
     color: #000000;
-
+}
+.link-root a:hover {
+    background-color: lightgrey;
 }
 
 nav button{
@@ -52,7 +52,12 @@ nav button{
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
+    cursor: pointer;
 }
+nav button:hover {
+    background-color: #6FCF97;
+}
+
 
 .hero-main {
     max-width: 1600px;
