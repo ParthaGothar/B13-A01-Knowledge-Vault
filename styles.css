@@ -303,6 +303,7 @@ nav button{
 #access {
     max-width: 1600px;
     padding-top: 2px;
+    
 }
 
 .access-content {
@@ -312,6 +313,8 @@ nav button{
     text-align: center;
     background-color: #F7F6F2;
     padding-bottom: 80px;
+    margin-bottom: 120px;
+    border-radius: 12px;
 }
 
 .access-content h3 {
@@ -384,3 +387,80 @@ nav button{
     line-height: 20px;
     color: #627382;
 }
+
+#footer {
+    max-width: 1600px;
+    padding-top: 120px;
+    background-color: #001931;
+}
+
+#footer .footer-contents {
+    max-width: 1360px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    max-width: 350px;
+    margin-top: 0px;
+
+}
+
+.footer-logo img {
+    max-width: 139px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-links {
+    max-width: 220px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.footer-links p {
+    max-width: 113px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.social-links div {
+    height: 20px;
+    width: 20px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.social-links {
+    max-width: 92px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.copyright {
+    max-width: 1360px;
+    margin: 80px auto;
+    border-top: 1px solid #E5E7EB33;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.copyright p {
+    max-width: 1360px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FAFAFA;
+    text-align: center;
+}
+
+
+
