@@ -61,99 +61,107 @@ nav button:hover {
 
 .hero-main {
     max-width: 1600px;
-    max-height: 674px;
+    margin: 0 auto;
     background-image: url("./assets/hero-bg.png");
-    padding: 70px 120px 134px 120px;
+    padding-top: 115.5px;
+    padding-bottom: 165px;
 }
 
 .hero {
     max-width: 1360px;
-    max-height: 380px;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .first {
     max-width: 229px;
-    max-height: 36px;
-    background-color: #FFFFFF;
-    border-radius: 1000px;
-    display: inline;
+    margin: 0 auto 16px;
     padding: 8px 12px;
     font-weight: 500;
     color: #469165;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
     font-size: 16px;
-    text-align: center;
-    gap: 6px;
 }
 
-.second {
+.hero-container h2 {
     max-width: 770px;
-    max-height: 168px;
-    margin: 16px 295px;
-    text-align: center;
+    margin: 0 auto 16px;
     font-size: 72px;
     font-weight: 700; 
+    line-height: 84px;
+    text-align: center;
     color: #FFFFFF;  
 }
 
-.second span {
+.hero-container h2 span {
     color: #30B868;
 }
 
-.third {
+.second p {
     max-width: 1360px;
-    max-height: 60px;
+    margin: 0 auto;
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 400;
-    text-align: center;
-    line-height: 24px;
+    line-height: 35px;
+    text-align: center; 
+}
+
+.button-area {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-top: 32px;
+
 }
 
 .hero-button {
     max-width: 465px;
-    max-height: 52px;
-    margin: 32px 447.5px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    gap: 16px;
-
 }
-
-.hero-button .but1 {
+.but1 {
     max-width: 251px;
-    max-height: 52px;
     border-radius: 4px;
-    padding: 12px 16px;
+    padding: 16px;
+    padding-top: 17px;
     background-color: #469165;
     border: none;
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-
+    gap: 10px;
+    cursor: pointer;
+}
+.but1 span {
+    max-width: 189px;
+    text-align: center;
 }
 
+.but1:hover {
+    background-color: #6FCF97;
+}
 
 .but2 {
     max-width: 198px;
-    max-height: 52px;
     border: 1px #FFFFFF solid;
-    padding: 12px 16px;
+    padding: 16px;
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
     background: transparent;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 4px;
-    display: inline;
     text-align: center;
-
+    cursor: pointer;
 }
+
+.but2:hover {
+    background-color: rgba(255, 255, 255, 0.406);
+}
+
 
 #card {
     max-width: 1600px;
@@ -369,7 +377,6 @@ nav button:hover {
 .access-content button span {
     max-width: 132px;
     color: #FFFFFF;
-    /* text-align: justify; */
     font-weight: 600;
     font-size: 16px;
     margin-left: 16px;
