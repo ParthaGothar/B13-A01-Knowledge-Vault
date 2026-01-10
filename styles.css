@@ -162,65 +162,60 @@ nav button:hover {
     background-color: rgba(255, 255, 255, 0.406);
 }
 
-
-#card {
-    max-width: 1600px;
-    padding-top: 45px;
+#about {
+    max-width: 1360px;
+    margin: 0 auto 44px;
 }
 
-#card .cardcontainer {
+#about h2 {
     max-width: 1360px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #FFFFFF;
-
-}
- .cardcontainer .cardabout {
-    max-width: 1360px;
-    text-align: center;
- }
-
- .cardabout h2{
+    padding-top: 50px;
     font-size: 48px;
     font-weight: 700px;
-    margin-bottom: 16px;
-    color: #001931;
- }
- 
- .cardabout p{
+    text-align: center;
+    color: #001931;  
+}
+
+#about p {
+    max-width: 1360px;
+    padding-top: 14px;
     font-size: 16px;
     font-weight: 400;
     color: #627382;
-    margin-bottom: 44px;
- }
+    text-align: center;
 
- .cardset {
+}
+
+
+
+#card {
+    max-width: 1360px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    gap: 24px;
- }
+    text-align: center;
+}
 
- .cardset .cardinfo {
+.cardinfo {
     max-width: 322px;
-    padding-top: 69.5px;
-    padding-right: 24px;
-    padding-left: 24px;
+    padding: 69.5px 24px ;
     border-radius: 8px;
-    box-shadow: 0px 0px 8px 0px #0000001a;
+    box-shadow: 0px 0px 8px 0px #0000001f;
  }
 
- .cardinfo .logo {
+.cardinfo .logo {
     max-width: 60px;
     max-height: 60px;
     margin: 0 auto;
+    padding: 14px 13.9px 13.9px 14px;
     background-color: #F95555;
     border-radius: 50%;
     margin-bottom: 16px;
 
+
  }
 
- .cardset .cardinfo .logo img {
-    padding: 14.04px 13.9px 13.9px 14.04px;
+.cardinfo .logo img {
     max-width: 32px;
     max-height: 32px;
  }
@@ -241,7 +236,6 @@ nav button:hover {
     line-height: 20px;
     color: #627382;
     margin: 0 auto;
-    margin-bottom: 69.5px;
 }
 
 #sol {
