@@ -241,6 +241,8 @@ nav button:hover {
 #sol {
     max-width: 1600px;
     padding-top: 120px;
+    margin: 0 auto;
+    padding-bottom: 120px;
 }
 
 #sol .solcontent {
@@ -249,7 +251,6 @@ nav button:hover {
     display: flex;
     justify-content: space-between;
     gap: 60px;
-    margin-bottom: 120px;
 }
 
 .solcontent .sol-img {
@@ -356,34 +357,34 @@ nav button:hover {
 .access-content button {
     max-width: 194px;
     margin: 0 auto;
+    padding: 16px;
     background-color: #469165;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
     border: none;
     border-radius: 4px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 10px;
     margin-bottom: 16px;
+    cursor: pointer;
 
-    
 }
 
 
 .access-content button span {
     max-width: 132px;
-    color: #FFFFFF;
+    text-align: center;
     font-weight: 600;
     font-size: 16px;
-    margin-left: 16px;
-    margin-bottom: 16.5px;
-    margin-top: 16.5px;
+}
+.access-content button:hover{
+    background-color: #6FCF97;
 }
 
-.access-content button img {
-    max-width: 20px;
-    margin-right: 16px;
-    margin-bottom: 16.5px;
-    margin-top: 16.5px;
-}
+
 
 .access-content .special3 {
     max-width: 1280px;
